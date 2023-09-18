@@ -17,6 +17,7 @@ import java.time.LocalDate;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "task")
 public class Task {
     @jakarta.persistence.Id
     @Id
@@ -24,7 +25,7 @@ public class Task {
 
     private Long id;
     private String name;
-    Enum<Status>statusEnum;
+//    Enum<Status>statusEnum;
     @JsonFormat(pattern = "dd.MM.yyyy")
     private LocalDate date;
 

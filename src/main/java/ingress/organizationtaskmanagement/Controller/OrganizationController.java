@@ -22,7 +22,7 @@ public class OrganizationController {
 
     @PostMapping()
     public void create(@RequestBody OrganizationRequestDto organizationRequestDto) {
-        orgServiceImpl.createCar(organizationRequestDto);
+        orgServiceImpl.createOrg(organizationRequestDto);
     }
 
     @GetMapping("/{id}")

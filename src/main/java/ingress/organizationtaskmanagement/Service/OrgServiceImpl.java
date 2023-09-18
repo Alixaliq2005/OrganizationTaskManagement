@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface OrgServiceImpl {
     List<OrganizationResponseDto> findAll();
-    void createCar(OrganizationRequestDto organizationRequestDto);
+    void createOrg(OrganizationRequestDto organizationRequestDto);
     OrganizationResponseDto getOrgById(Long id);
     void update( OrganizationRequestDto organizationRequestDto,  Long id);
     void delete(Long id);

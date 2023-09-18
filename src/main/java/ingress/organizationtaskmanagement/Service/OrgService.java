@@ -31,7 +31,7 @@ public class OrgService implements OrgServiceImpl {
     }
 
     @Override
-    public void createCar(OrganizationRequestDto organizationRequestDto){
+    public void createOrg(OrganizationRequestDto organizationRequestDto){
         Organization organization=modelMapper.map(organizationRequestDto,Organization.class);
         organizationRepository.save(organization);
     }
