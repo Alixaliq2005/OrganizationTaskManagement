@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v3/api/task")
+@RequestMapping("/v2/api/task")
 @RequiredArgsConstructor
 public class TaskController {
     private final TaskServiceImpl taskServiceImpl;

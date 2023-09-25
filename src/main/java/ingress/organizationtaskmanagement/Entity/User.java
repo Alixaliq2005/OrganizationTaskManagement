@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "user")
+//@Table(name = "user")
 public class User {
     @jakarta.persistence.Id
     @Id
@@ -25,8 +25,6 @@ public class User {
 
     private Long id;
     private String name;
-    private String surname;
-    @JsonFormat(pattern = "dd.MM.yyyy")
-    private LocalDate deadline;
-    private String description;
+    private String email;
+    private String password;
 }

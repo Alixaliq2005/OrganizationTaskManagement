@@ -10,11 +10,12 @@ public class UserRequestDto {
 
     private String name;
 
-    private String surname;
+//    private String surname;
+//
+//    @JsonFormat(pattern = "dd.MM.yyyy")
+//    private LocalDate deadline;
 
-    @JsonFormat(pattern = "dd.MM.yyyy")
-    private LocalDate deadline;
-
-    private String description;
+    private String email;
+    private String password;
 
 }

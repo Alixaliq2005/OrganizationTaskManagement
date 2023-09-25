@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20230925-08
+      author: ElgunMahkmudov10
+      changes:
+        - insert:
+            tableName: users
+            columns:
+              - column:
+                  name: name
+                  value: Ali
+              - column:
+                  name: fin_code
+                  value: 7PCPV5A
+              - column:
+                  name: password
+                  value: ali2005

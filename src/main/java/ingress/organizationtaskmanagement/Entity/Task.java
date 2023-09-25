@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "task")
+//@Table(name = "task")
 public class Task {
     @jakarta.persistence.Id
     @Id
